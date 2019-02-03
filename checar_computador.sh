@@ -3,6 +3,7 @@
 #Este scrpit faz uso dos seguintes programas para checar o computador:
 #Fail2ban, smarmontools, vnstati, free e df.
 #O programa ssmtp é utilizado para envio de notificações por e-mail.
+#teste
 
 #Checagem do HD
 echo -e "To: usuario-de-destino@gmail.com \nFrom: usuario-de-origem@outlook.com \nSubject:Logs do computador \n" > /var/log/logs_computador.txt
