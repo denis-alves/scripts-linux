@@ -78,7 +78,7 @@ max-lease-time 7200;\n
 }" >> /etc/dhcp/dhcpd.conf 
 
 
-#O script vai mostrar as inerfaces de rede que ele localizou no sistema para que o usuário escolha a que será a interface de rede para o DHCP.
+#O script vai mostrar as interfaces de rede que ele localizou no sistema para que o usuário escolha a que será a interface de rede para o DHCP.
 echo ""
 echo "Interfaces de rede detectadas neste host:"
 ls -1 /sys/class/net
